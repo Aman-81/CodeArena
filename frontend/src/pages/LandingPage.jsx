@@ -111,10 +111,9 @@ const Navbar = () => {
     <nav className="fixed top-0 left-0 w-full z-50 bg-gray-950/80 backdrop-blur-2xl border-b border-gray-800">
       <div className="container mx-auto px-4 sm:px-6 py-4 flex justify-between items-center">
         <a href="#hero" className="text-2xl font-extrabold text-white flex items-center">
-          {/* Logo - Updated for Vercel deployment */}
-          {/* OLD (Local only): src="/src/images/Code.png" */}
+          {/* Your logo with slight brightness */}
           <img
-            src="/images/Code.png"
+            src="/src/images/Code.png"
             alt="CodeArena Logo"
             className="w-14 h-10 mr-3 brightness-110 contrast-110"
           />
@@ -220,23 +219,19 @@ const LandingPage = () => {
   const languages = [
     {
       name: "JavaScript",
-      // OLD (Local only): src="/src/images/javascript.png"
-      icon: <img src="/images/javascript.png" alt="JavaScript" className="w-16 h-16 object-contain" />
+      icon: <img src="/src/images/javascript.png" alt="JavaScript" className="w-16 h-16 object-contain" />
     },
     {
       name: "Python",
-      // OLD (Local only): src="/src/images/python.webp"
-      icon: <img src="/images/python.webp" alt="Python" className="w-16 h-16 object-contain" />
+      icon: <img src="/src/images/python.webp" alt="Python" className="w-16 h-16 object-contain" />
     },
     {
       name: "Java",
-      // OLD (Local only): src="/src/images/java_icon.png"
-      icon: <img src="/images/java_icon.png" alt="Java" className="w-16 h-16 object-contain" />
+      icon: <img src="/src/images/java_icon.png" alt="Java" className="w-16 h-16 object-contain" />
     },
     {
       name: "C++",
-      // OLD (Local only): src="/src/images/cpp_icon.png"
-      icon: <img src="/images/cpp_icon.png" alt="C++" className="w-16 h-16 object-contain" />
+      icon: <img src="/src/images/cpp_icon.png" alt="C++" className="w-16 h-16 object-contain" />
     },
   ];
 
